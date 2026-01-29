@@ -1,6 +1,6 @@
-import Character from './Character';
+import Character from './Character.js';
 
-export default class Undead extends Character {
+export default class Bowman extends Character {
   constructor(name, type) {
     super(name, type);
     this.attack = 25;
